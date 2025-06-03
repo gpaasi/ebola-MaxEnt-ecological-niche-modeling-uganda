@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Environmental Niche Modeling of Sudan ebolavirus (SUDV)"
+version: "1.0.0"
+doi: "10.5281/zenodo.1234567"
+authors:
+  - family-names: "Paasi"
+    given-names: "George"
+    orcid: "0000-0001-6360-0589"
+  - family-names: "Okwware"
+    given-names: "Sam"
+  - family-names: "Olupot-Olupot"
+    given-names: "Peter"
+repository-code: "https://github.com/YourUser/Objective3_ENM"
+license: "CC-BY-4.0"

@@ -1,0 +1,11 @@
+{
+  "title": "Environmental Niche Modeling of Sudan ebolavirus (SUDV)",
+  "upload_type": "software",
+  "description": "Data and code for ecological niche modeling of SUDV occurrence in Uganda.",
+  "creators": [
+    {"name": "Paasi, George", "orcid": "0000-0001-6360-0589"},
+    {"name": "Okwware, Sam"},
+    {"name": "Olupot-Olupot, Peter"}
+  ],
+  "license": "CC-BY-4.0"
+}
