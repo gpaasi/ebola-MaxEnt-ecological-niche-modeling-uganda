@@ -377,24 +377,9 @@ Mbale, Uganda
 Email: [georgepaasi8@gmail.com](mailto:georgepaasi8@gmail.com)
 
 **Co‐Authors**:
-Sam Okwware, MBChB, MPH
+Sam Okwware, MBChB, MPH. PhD
 Uganda National Health Research Organisation (UNHRO)
-Email: [sam.okwware@unhro.ug](mailto:sam.okwware@unhro.ug)
 
 Peter Olupot‐Olupot, MD, PhD
-Department of Paediatrics & Child Health, Makerere University College of Health Sciences
-Kampala, Uganda
-Email: [polupot@musph.ac.ug](mailto:polupot@musph.ac.ug)
-
----
-
-*For any issues or suggestions, please open an issue on the GitHub repository or submit a pull request.*
-
-```
-
----
-
-**Next Steps**:  
-1. Save this content as `README.md` at the root of your `sudv-enm-uganda` repository.  
-2. Proceed to create the next file: `LICENSE`.
-```
+Mbale Clinical research institute (MCRI)
+polupotolupot@gmail.com  
