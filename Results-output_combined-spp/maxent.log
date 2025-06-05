@@ -1,0 +1,541 @@
+Sat May 03 20:14:59 EAT 2025
+MaxEnt version 3.4.4
+Checking header of C:\Users\gpaasi\Downloads\tutorial-data\aligned\ClimAfr02_exposure index.asc
+Checking header of C:\Users\gpaasi\Downloads\tutorial-data\aligned\ClimAfr03_sensitivity index.asc
+Checking header of C:\Users\gpaasi\Downloads\tutorial-data\aligned\bat_density.asc
+Checking header of C:\Users\gpaasi\Downloads\tutorial-data\aligned\bio1.asc
+Checking header of C:\Users\gpaasi\Downloads\tutorial-data\aligned\bio12.asc
+Checking header of C:\Users\gpaasi\Downloads\tutorial-data\aligned\bio15.asc
+Checking header of C:\Users\gpaasi\Downloads\tutorial-data\aligned\bio4.asc
+Checking header of C:\Users\gpaasi\Downloads\tutorial-data\aligned\bushmeat.asc
+Checking header of C:\Users\gpaasi\Downloads\tutorial-data\aligned\dem.asc
+Checking header of C:\Users\gpaasi\Downloads\tutorial-data\aligned\popdens.asc
+Checking header of C:\Users\gpaasi\Downloads\tutorial-data\aligned\slope.asc
+Reading samples from Ebola_presence_all.csv
+Read samples: max memory 2107637760, total allocated 132120576, free 106125168, used 25995408, increment 25995408
+Converting file C:\Users\gpaasi\Downloads\tutorial-data\aligned\bio1.asc size 9224631, max memory = 2107637760
+Reading file bio1.asc
+Time since start: 1.473
+FLOAT, 415227 pixels with data
+readGrid: max memory 2107637760, total allocated 132120576, free 76405232, used 55715344, increment 29719936
+Writing file C:\Users\gpaasi\Downloads\tutorial-data\aligned\maxent.cache\bio1.mxe
+Time since start: 2.61
+Converting file C:\Users\gpaasi\Downloads\tutorial-data\aligned\bio12.asc size 2574014, max memory = 2107637760
+Reading file bio12.asc
+FLOAT, 415227 pixels with data
+readGrid: max memory 2107637760, total allocated 132120576, free 48285840, used 83834736, increment 28119392
+Writing file C:\Users\gpaasi\Downloads\tutorial-data\aligned\maxent.cache\bio12.mxe
+Time since start: 4.158
+Converting file C:\Users\gpaasi\Downloads\tutorial-data\aligned\bio15.asc size 9321659, max memory = 2107637760
+Reading file bio15.asc
+FLOAT, 415227 pixels with data
+readGrid: max memory 2107637760, total allocated 132120576, free 108716920, used 23403656, increment -60431080
+Writing file C:\Users\gpaasi\Downloads\tutorial-data\aligned\maxent.cache\bio15.mxe
+Time since start: 5.674
+Converting file C:\Users\gpaasi\Downloads\tutorial-data\aligned\bio4.asc size 9188449, max memory = 2107637760
+Reading file bio4.asc
+FLOAT, 415227 pixels with data
+readGrid: max memory 2107637760, total allocated 132120576, free 94852544, used 37268032, increment 13864376
+Writing file C:\Users\gpaasi\Downloads\tutorial-data\aligned\maxent.cache\bio4.mxe
+Time since start: 7.195
+Extractor: max memory 2107637760, total allocated 132120576, free 93803968, used 38316608, increment 1048576
+Extracting random background and sample data
+Warning: Sample at 30.1294, 0.8341 in Ebola_presence_all.csv is missing some environmental data (e.g. ClimAfr02_exposure index)
+Warning: Skipping sample at 30.1294, 0.8341
+Warning: Sample at 29.97498, 0.71325 in Ebola_presence_all.csv is missing some environmental data (e.g. slope)
+Warning: Skipping sample at 29.97498, 0.71325
+Time since start: 14.555
+227821 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife outputdirectory=C:\Users\gpaasi\Downloads\tutorial-data\output_all samplesfile=C:\Users\gpaasi\Downloads\Ebola_presence_all.csv environmentallayers=C:\Users\gpaasi\Downloads\tutorial-data\aligned
+Species: Ebola_virus
+Layers: ClimAfr02_exposure index ClimAfr03_sensitivity index bat_density bio1 bio12 bio15 bio4 bushmeat dem popdens slope
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\gpaasi\Downloads\tutorial-data\output_all
+samplesfile: C:\Users\gpaasi\Downloads\Ebola_presence_all.csv
+environmentallayers: C:\Users\gpaasi\Downloads\tutorial-data\aligned
+
+getSamples: max memory 2107637760, total allocated 132120576, free 82269632, used 49850944, increment 11534336
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 75477728, used 56642848, increment 6791904
+Ebola_virus: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 46091712, used 86028864, increment 29386016
+linearPredictor: max memory 2107637760, total allocated 132120576, free 46091712, used 86028864, increment 0
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 46091712, used 86028864, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 46091712, used 86028864, increment 0
+Initial loss: 9.217216675915616
+Time since start: 30.475
+500: time = 14.947000 loss = 7.056546
+Resulting gain: 2.1606703728848524
+Time since start: 40.897
+Projecting...
+Writing file C:\Users\gpaasi\Downloads\tutorial-data\output_all\Ebola_virus.asc
+Time since start: 43.337
+Writing C:\Users\gpaasi\Downloads\tutorial-data\output_all\plots\Ebola_virus.png
+Ebola_virus response curves
+Time since start: 44.545
+Response curve: only ClimAfr02_exposure index
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 35867560, used 96253016, increment 10224152
+Ebola_virus ClimAfr02_exposure index: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 33271040, used 98849536, increment 2596520
+linearPredictor: max memory 2107637760, total allocated 132120576, free 33271040, used 98849536, increment 0
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 33271040, used 98849536, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 33271040, used 98849536, increment 0
+Initial loss: 9.217216675915616
+Time since start: 45.583
+180: time = 0.975000 loss = 8.891948
+Resulting gain: 0.3252690881055127
+Ebola_virus response curves
+Response curve: only ClimAfr03_sensitivity index
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 77284840, used 54835736, increment -44013800
+Ebola_virus ClimAfr03_sensitivity index: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 74174112, used 57946464, increment 3110728
+linearPredictor: max memory 2107637760, total allocated 132120576, free 74093544, used 58027032, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 74093544, used 58027032, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 74093544, used 58027032, increment 0
+Initial loss: 9.217216675915616
+Time since start: 46.9
+200: time = 1.125000 loss = 9.113999
+Resulting gain: 0.10321778186760078
+Ebola_virus response curves
+Response curve: only bat_density
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 87180304, used 44940272, increment -13086760
+Ebola_virus bat_density: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 83689232, used 48431344, increment 3491072
+linearPredictor: max memory 2107637760, total allocated 132120576, free 83689232, used 48431344, increment 0
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 83689232, used 48431344, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 83689232, used 48431344, increment 0
+Initial loss: 9.217216675915616
+Time since start: 48.981
+220: time = 1.964000 loss = 8.988029
+Resulting gain: 0.2291880563827231
+Ebola_virus response curves
+Response curve: only bio1
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 59922728, used 72197848, increment 23766504
+Ebola_virus bio1: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 58890248, used 73230328, increment 1032480
+linearPredictor: max memory 2107637760, total allocated 132120576, free 58365960, used 73754616, increment 524288
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 58365960, used 73754616, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 58365960, used 73754616, increment 0
+Initial loss: 9.217216675915616
+Time since start: 50.467
+300: time = 1.265000 loss = 8.804832
+Resulting gain: 0.412385087919354
+Ebola_virus response curves
+Response curve: only bio12
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 81165232, used 50955344, increment -22799272
+Ebola_virus bio12: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 80022352, used 52098224, increment 1142880
+linearPredictor: max memory 2107637760, total allocated 132120576, free 80022352, used 52098224, increment 0
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 80022352, used 52098224, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 80022352, used 52098224, increment 0
+Initial loss: 9.217216675915616
+Time since start: 51.733
+240: time = 1.052000 loss = 9.057761
+Resulting gain: 0.15945548325409753
+Ebola_virus response curves
+Response curve: only bio15
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 20858416, used 111262160, increment 59163936
+Ebola_virus bio15: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 19266880, used 112853696, increment 1591536
+linearPredictor: max memory 2107637760, total allocated 132120576, free 18783168, used 113337408, increment 483712
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 18783168, used 113337408, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 18783168, used 113337408, increment 0
+Initial loss: 9.217216675915616
+Time since start: 55.92
+500: time = 4.098000 loss = 8.626297
+Resulting gain: 0.5909196655510716
+Ebola_virus response curves
+Response curve: only bio4
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 88691616, used 43428960, increment -69908448
+Ebola_virus bio4: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 87116944, used 45003632, increment 1574672
+linearPredictor: max memory 2107637760, total allocated 132120576, free 87036376, used 45084200, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 87036376, used 45084200, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 87036376, used 45084200, increment 0
+Initial loss: 9.217216675915616
+Time since start: 58.068
+260: time = 2.004000 loss = 9.018498
+Resulting gain: 0.19871832007079782
+Ebola_virus response curves
+Response curve: only bushmeat
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 30850624, used 101269952, increment 56185752
+Ebola_virus bushmeat: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 29804096, used 102316480, increment 1046528
+linearPredictor: max memory 2107637760, total allocated 132120576, free 29804096, used 102316480, increment 0
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 29804096, used 102316480, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 29804096, used 102316480, increment 0
+Initial loss: 9.217216675915616
+140: time = 0.718000 loss = 8.930489
+Resulting gain: 0.2867273850212353
+Ebola_virus response curves
+Response curve: only dem
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 96621160, used 35499416, increment -66817064
+Ebola_virus dem: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 95508624, used 36611952, increment 1112536
+linearPredictor: max memory 2107637760, total allocated 132120576, free 95508624, used 36611952, increment 0
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 95508624, used 36611952, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 95508624, used 36611952, increment 0
+Initial loss: 9.217216675915616
+Time since start: 59.779
+200: time = 0.771000 loss = 9.144042
+Resulting gain: 0.07317457268982253
+Ebola_virus response curves
+Response curve: only popdens
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 31085152, used 101035424, increment 64423472
+Ebola_virus popdens: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 29005200, used 103115376, increment 2079952
+linearPredictor: max memory 2107637760, total allocated 132120576, free 29005200, used 103115376, increment 0
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 29005200, used 103115376, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 29005200, used 103115376, increment 0
+Initial loss: 9.217216675915616
+Time since start: 61.461
+260: time = 1.584000 loss = 7.731217
+Resulting gain: 1.4859994513485288
+Ebola_virus response curves
+Response curve: only slope
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 65216504, used 66904072, increment -36211304
+Ebola_virus slope: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 63498200, used 68622376, increment 1718304
+linearPredictor: max memory 2107637760, total allocated 132120576, free 63417632, used 68702944, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 63417632, used 68702944, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 63417632, used 68702944, increment 0
+Initial loss: 9.217216675915616
+140: time = 0.785000 loss = 9.190457
+Resulting gain: 0.026759624282034267
+Ebola_virus response curves
+Time since start: 63.772
+Jackknife: leave ClimAfr02_exposure index out
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 66294696, used 65825880, increment -2877064
+Ebola_virus ClimAfr02_exposure index: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 52777760, used 79342816, increment 13516936
+linearPredictor: max memory 2107637760, total allocated 132120576, free 52777760, used 79342816, increment 0
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 52775712, used 79344864, increment 2048
+Sequential: max memory 2107637760, total allocated 132120576, free 52251424, used 79869152, increment 524288
+Initial loss: 9.217216675915616
+Time since start: 77.931
+500: time = 13.841000 loss = 7.073817
+Jackknife: leave ClimAfr03_sensitivity index out
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 44547768, used 87572808, increment 7703656
+Ebola_virus ClimAfr03_sensitivity index: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 31047408, used 101073168, increment 13500360
+linearPredictor: max memory 2107637760, total allocated 132120576, free 30966840, used 101153736, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 30966840, used 101153736, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 30966840, used 101153736, increment 0
+Initial loss: 9.217216675915616
+Time since start: 90.909
+500: time = 12.711000 loss = 7.116315
+Jackknife: leave bat_density out
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 38766432, used 93354144, increment -7799592
+Ebola_virus bat_density: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 25341880, used 106778696, increment 13424552
+linearPredictor: max memory 2107637760, total allocated 132120576, free 25261312, used 106859264, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 25261312, used 106859264, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 25261312, used 106859264, increment 0
+Initial loss: 9.217216675915616
+Time since start: 103.219
+500: time = 12.045000 loss = 7.248628
+Jackknife: leave bio1 out
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 21682352, used 110438224, increment 3578960
+Ebola_virus bio1: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 67233096, used 64887480, increment -45550744
+linearPredictor: max memory 2107637760, total allocated 132120576, free 67152528, used 64968048, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 67152528, used 64968048, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 67152528, used 64968048, increment 0
+Initial loss: 9.217216675915616
+Time since start: 119.475
+500: time = 15.975000 loss = 7.093252
+Jackknife: leave bio12 out
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 43002160, used 89118416, increment 24150368
+Ebola_virus bio12: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 28812080, used 103308496, increment 14190080
+linearPredictor: max memory 2107637760, total allocated 132120576, free 28731512, used 103389064, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 28731512, used 103389064, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 28731512, used 103389064, increment 0
+Initial loss: 9.217216675915616
+Time since start: 135.47
+500: time = 15.631000 loss = 7.057703
+Jackknife: leave bio15 out
+Making features
+makeFeatures: max memory 2107637760, total allocated 132120576, free 26872776, used 105247800, increment 1858736
+Ebola_virus bio15: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 132120576, free 69553472, used 62567104, increment -42680696
+linearPredictor: max memory 2107637760, total allocated 132120576, free 69472904, used 62647672, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 132120576, free 69472904, used 62647672, increment 0
+Sequential: max memory 2107637760, total allocated 132120576, free 69472904, used 62647672, increment 0
+Initial loss: 9.217216675915616
+Time since start: 148.794
+500: time = 13.061000 loss = 7.149844
+Jackknife: leave bio4 out
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 23928064, used 135455488, increment 72807816
+Ebola_virus bio4: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 92801704, used 66581848, increment -68873640
+linearPredictor: max memory 2107637760, total allocated 159383552, free 92801704, used 66581848, increment 0
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 92801704, used 66581848, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 92801704, used 66581848, increment 0
+Initial loss: 9.217216675915616
+Time since start: 163.054
+500: time = 13.978000 loss = 7.057297
+Jackknife: leave bushmeat out
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 52297832, used 107085720, increment 40503872
+Ebola_virus bushmeat: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 38030976, used 121352576, increment 14266856
+linearPredictor: max memory 2107637760, total allocated 159383552, free 37950408, used 121433144, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 37950408, used 121433144, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 37950408, used 121433144, increment 0
+Initial loss: 9.217216675915616
+Time since start: 177.478
+500: time = 14.142000 loss = 7.144485
+Jackknife: leave dem out
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 62847888, used 96535664, increment -24897480
+Ebola_virus dem: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 48735192, used 110648360, increment 14112696
+linearPredictor: max memory 2107637760, total allocated 159383552, free 48654624, used 110728928, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 48654624, used 110728928, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 48654624, used 110728928, increment 0
+Initial loss: 9.217216675915616
+Time since start: 192.037
+500: time = 14.304000 loss = 7.055455
+Jackknife: leave popdens out
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 34569848, used 124813704, increment 14084776
+Ebola_virus popdens: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 21165248, used 138218304, increment 13404600
+linearPredictor: max memory 2107637760, total allocated 159383552, free 21084680, used 138298872, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 21084680, used 138298872, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 21084680, used 138298872, increment 0
+Initial loss: 9.217216675915616
+Time since start: 205.496
+500: time = 13.261000 loss = 7.651394
+Jackknife: leave slope out
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 78086616, used 81296936, increment -57001936
+Ebola_virus slope: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 64583432, used 94800120, increment 13503184
+linearPredictor: max memory 2107637760, total allocated 159383552, free 64502864, used 94880688, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 64502864, used 94880688, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 64502864, used 94880688, increment 0
+Initial loss: 9.217216675915616
+Time since start: 218.605
+500: time = 12.832000 loss = 7.061244
+Jackknife: only ClimAfr02_exposure index
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 42811056, used 116572496, increment 21691808
+Ebola_virus ClimAfr02_exposure index: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 41189152, used 118194400, increment 1621904
+linearPredictor: max memory 2107637760, total allocated 159383552, free 41108584, used 118274968, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 41108584, used 118274968, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 41108584, used 118274968, increment 0
+Initial loss: 9.217216675915616
+Time since start: 219.639
+180: time = 1.014000 loss = 8.891948
+Res.gain: 0.3252690881055127
+Jackknife: only ClimAfr03_sensitivity index
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 84640368, used 74743184, increment -43531784
+Ebola_virus ClimAfr03_sensitivity index: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 82952664, used 76430888, increment 1687704
+linearPredictor: max memory 2107637760, total allocated 159383552, free 82872096, used 76511456, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 82872096, used 76511456, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 82872096, used 76511456, increment 0
+Initial loss: 9.217216675915616
+Time since start: 220.79
+200: time = 1.136000 loss = 9.113999
+Res.gain: 0.10321778186760078
+Jackknife: only bat_density
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 21969144, used 137414408, increment 60902952
+Ebola_virus bat_density: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 93383848, used 65999704, increment -71414704
+linearPredictor: max memory 2107637760, total allocated 159383552, free 93303280, used 66080272, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 93303280, used 66080272, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 93303280, used 66080272, increment 0
+Initial loss: 9.217216675915616
+Time since start: 222.203
+220: time = 1.380000 loss = 8.988029
+Res.gain: 0.2291880563827231
+Jackknife: only bio1
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 52209808, used 107173744, increment 41093472
+Ebola_virus bio1: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 51096256, used 108287296, increment 1113552
+linearPredictor: max memory 2107637760, total allocated 159383552, free 51015688, used 108367864, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 51015688, used 108367864, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 51015688, used 108367864, increment 0
+Initial loss: 9.217216675915616
+300: time = 0.781000 loss = 8.804832
+Res.gain: 0.412385087919354
+Jackknife: only bio12
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 67660000, used 91723552, increment -16644312
+Ebola_virus bio12: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 66628520, used 92755032, increment 1031480
+linearPredictor: max memory 2107637760, total allocated 159383552, free 66628520, used 92755032, increment 0
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 66628520, used 92755032, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 66628520, used 92755032, increment 0
+Initial loss: 9.217216675915616
+Time since start: 223.587
+240: time = 0.560000 loss = 9.057761
+Res.gain: 0.15945548325409753
+Jackknife: only bio15
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 85075632, used 74307920, increment -18447112
+Ebola_virus bio15: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 83343392, used 76040160, increment 1732240
+linearPredictor: max memory 2107637760, total allocated 159383552, free 83262824, used 76120728, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 83262824, used 76120728, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 83262824, used 76120728, increment 0
+Initial loss: 9.217216675915616
+Time since start: 226.537
+500: time = 2.917000 loss = 8.626297
+Res.gain: 0.5909196655510716
+Jackknife: only bio4
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 91451920, used 67931632, increment -8189096
+Ebola_virus bio4: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 89894400, used 69489152, increment 1557520
+linearPredictor: max memory 2107637760, total allocated 159383552, free 89813832, used 69569720, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 89813832, used 69569720, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 89813832, used 69569720, increment 0
+Initial loss: 9.217216675915616
+Time since start: 227.72
+260: time = 1.154000 loss = 9.018498
+Res.gain: 0.19871832007079782
+Jackknife: only bushmeat
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 90774944, used 68608608, increment -961112
+Ebola_virus bushmeat: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 89750592, used 69632960, increment 1024352
+linearPredictor: max memory 2107637760, total allocated 159383552, free 89750592, used 69632960, increment 0
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 89750592, used 69632960, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 89750592, used 69632960, increment 0
+Initial loss: 9.217216675915616
+140: time = 0.396000 loss = 8.930489
+Res.gain: 0.2867273850212353
+Jackknife: only dem
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 82895912, used 76487640, increment 6854680
+Ebola_virus dem: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 81865976, used 77517576, increment 1029936
+linearPredictor: max memory 2107637760, total allocated 159383552, free 81865976, used 77517576, increment 0
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 81865976, used 77517576, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 81865976, used 77517576, increment 0
+Initial loss: 9.217216675915616
+Time since start: 229.043
+200: time = 0.890000 loss = 9.144042
+Res.gain: 0.07317457268982253
+Jackknife: only popdens
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 21393080, used 137990472, increment 60472896
+Ebola_virus popdens: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 93588440, used 65795112, increment -72195360
+linearPredictor: max memory 2107637760, total allocated 159383552, free 93507872, used 65875680, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 93507872, used 65875680, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 93507872, used 65875680, increment 0
+Initial loss: 9.217216675915616
+Time since start: 230.885
+260: time = 1.818000 loss = 7.731217
+Res.gain: 1.4859994513485288
+Jackknife: only slope
+Making features
+makeFeatures: max memory 2107637760, total allocated 159383552, free 32926112, used 126457440, increment 60581760
+Ebola_virus slope: 
+Regularization values: linear/quadratic/product: 0.133, categorical: 0.250, threshold: 1.290, hinge: 0.500
+71 samples
+Density: max memory 2107637760, total allocated 159383552, free 31208072, used 128175480, increment 1718040
+linearPredictor: max memory 2107637760, total allocated 159383552, free 31127504, used 128256048, increment 80568
+FeaturedSpace: max memory 2107637760, total allocated 159383552, free 31127504, used 128256048, increment 0
+Sequential: max memory 2107637760, total allocated 159383552, free 31127504, used 128256048, increment 0
+Initial loss: 9.217216675915616
+Time since start: 231.983
+140: time = 1.036000 loss = 9.190457
+Res.gain: 0.026759624282034267
+Ending
