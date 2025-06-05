@@ -1,7 +1,7 @@
 # Ebola virus MaxEnt Ecological Niche Modeling (Uganda)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15600735.svg)](https://doi.org/10.5281/zenodo.15600735)  
-[![GitHub Repository](https://img.shields.io/badge/GitHub-ebola-MaxEnt-ecological-niche-modeling-uganda-blue)](https://github.com/gpaasi/ebola-MaxEnt-ecological-niche-modeling-uganda)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-ebola-MaxEnt-ecological-niche-modeling-uganda-blue)
 
 Reproducible pipeline, data, and interactive visualization for  
 **“Environmental niche modeling of ebolavirus) occurrence in Uganda.”**
