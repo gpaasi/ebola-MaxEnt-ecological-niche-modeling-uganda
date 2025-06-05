@@ -1,14 +1,10 @@
 # Ebola virus MaxEnt Ecological Niche Modeling (Uganda)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15600735.svg)](https://doi.org/10.5281/zenodo.15600735)  
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/gpaasi/ebola-MaxEnt-ecological-niche-modeling-uganda)
+[![GitHub](https://img.shields.io/badge/GitHub-ebolavirus--MaxEnt--ecological--niche--modeling--uganda-blue?logo=github&logoColor=white)](https://github.com/gpaasi/ebola-MaxEnt-ecological-niche-modeling-uganda)
 
 Reproducible pipeline, data, and interactive visualization for  
-**“Environmental niche modeling of Sudan ebolavirus (SUDV) occurrence in Uganda.”**
-
-Reproducible pipeline, data, and interactive visualization for  
-**“Environmental niche modeling of ebolavirus) occurrence in Uganda.”**
-
+**“Environmental niche modeling of ebolavirus occurrence in Uganda.”**
 
 ---
 
