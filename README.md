@@ -1,7 +1,11 @@
-Environmental Niche Modeling of Sebolavirus in Uganda
+# Ebola virus MaxEnt Ecological Niche Modeling (Uganda)
 
-> **GitHub Repository**: https://github.com/YourUser/sudv-enm-uganda  
-> **Zenodo DOI**: 10.5281/zenodo.XXXXXXXX (replace with actual DOI after deposition)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15600735.svg)](https://doi.org/10.5281/zenodo.15600735)  
+[![GitHub Repository](https://img.shields.io/badge/GitHub-ebola-MaxEnt-ecological-niche-modeling-uganda-blue)](https://github.com/gpaasi/ebola-MaxEnt-ecological-niche-modeling-uganda)
+
+Reproducible pipeline, data, and interactive visualization for  
+**“Environmental niche modeling of ebolavirus) occurrence in Uganda.”**
+
 
 ---
 
@@ -330,9 +334,8 @@ When using any data or code from this repository, please cite:
 
 > **Paasi, G.; Okwware, S.; Olupot-Olupot, P. (2025).**
 > *Environmental Niche Modeling of Sudan ebolavirus (SUDV) in Uganda.*
-> Zenodo. [https://doi.org/10.5281/zenodo.XXXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXXX)
+> Zenodo. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15600735.svg)](https://doi.org/10.5281/zenodo.15600735)  
 
-Replace `XXXXXXXX` with the actual DOI once Zenodo archiving is complete. If referencing specific scripts or results, include the Git commit hash:
 
 > Commit: `abcdef1234567890abcdef1234567890abcdef12`
 
